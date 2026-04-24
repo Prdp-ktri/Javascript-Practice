@@ -1,10 +1,7 @@
 let gameNum = 25;
+let randNum = prompt("Guess a number:");
 
-for (let i = 1; i <= n; i++) {
-  let num = prompt("Enter a number");
-  if (num === gameNum) {
-    console.log("You guessed the number right!");
-  } else {
-    num = prompt("Enter the number again");
-  }
+while (randNum !== gameNum) {
+  randNum = Number(prompt("Guess the number again!"));
 }
+console.log("You guessed the number right, it's 25");

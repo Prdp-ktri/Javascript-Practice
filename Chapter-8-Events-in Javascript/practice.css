@@ -1,0 +1,26 @@
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.boxDiv {
+  width: 250px;
+  height: 250px;
+  background-color: greenyellow;
+  border: 5px solid orange;
+}
+
+.hovered {
+  background-color: orange;
+  border: 5px solid greenyellow;
+}
+
+.hover {
+  background-color: greenyellow;
+  border: 5px solid orange;
+}
